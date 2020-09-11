@@ -1,2 +1,2 @@
 
-alert("FALA VITÃO!!, rs");
+alert("FALA GU!!!, rs");
