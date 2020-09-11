@@ -1,2 +1,2 @@
 
-alert("Aqui tem Java Script rodando, rs");
+alert("FALA VITÃO!!, rs");
