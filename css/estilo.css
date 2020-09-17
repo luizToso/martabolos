@@ -1,0 +1,260 @@
+/*Reset CSS*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+   font-family: "Nunito";
+   src: local(Nunito), url(../fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: local(Open Sans), url(../fonts/OpenSans-Regular.ttf);
+}
+
+/* Inicio do Site */
+.container {
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+}
+
+header{
+ float: left;
+  width: 960px;
+  height: 150px;
+  /*background-image:url("../img/logo-inicio.png");*/
+  background-color: #163970;
+  /*background-color: #cb2e2e;*/
+
+}
+
+.logo {
+  width: 150px;
+  height: 110px;
+  background: url("../img/logo.png") no-repeat center;
+  background-size: 100%;
+  margin: 20px 10px;
+  float: left;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	list-style: none;
+	width: auto;
+	height: auto;
+	margin-right: 30px;
+	margin-top: 70px;
+	float: right;
+}
+
+
+
+a > li {
+
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	padding: 20px;
+	background-color: #102f5f;
+	display: inline-block;
+	color: #f9f9f9;
+	font-size: 30px;
+	transition: ease 0.5s;
+}
+
+a > li:hover, .ativo {
+	background-color: #102f5f;
+	color: #f9f9f9;
+	border: 1px solid #102f5f;
+}
+
+#banner {
+	float: left;
+	width: 960px;
+	height: 400px;
+	/*background: url("../img/banner.jpg") no-repeat center;*/
+  /*background-size: 100%;*/
+}
+.navs-wrapper{
+	width: 960px;
+	height: 400px;
+
+}
+
+.colunas {
+	float: left;
+	width: 960px;
+	height: 420px;
+	background-color: #aa242a;
+}
+
+.cols {
+	width: 320px;
+	height: 420px;
+	float: left;
+	background-color: #aa242a;
+	transition: ease 0.5s;
+}
+
+.cols:hover {
+	background-color: #cb2e2e;
+}
+.col1 {
+	background: url("../img/fcol1.png") no-repeat center;
+	background-size: 100%;
+}
+
+.col2 {
+	background: url("../img/fcol2.png") no-repeat center;
+	background-size: 100%;
+}
+
+.col3 {
+	background: url("../img/fcol3.png") no-repeat center;
+	background-size: 100%;
+}
+
+.pcolunas {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	font-size: 38px;
+	text-align: center;
+	color: #f9f9f9;
+	margin-top: 320px;
+}
+.mensagem{
+	width: 960px;
+	height: 400px;
+	background-color: #163970;
+	float: left;
+
+}
+.mensagem > h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 90px;
+	font-size: 60px;
+	color: #f9f9f9;
+}
+
+footer {
+	width: 960px;
+	height: 130px;
+	float: left;
+	background-color: #163970;
+}
+
+.social {
+	width: 320px;
+	height: 80px;
+	margin: 25px auto 0;
+}
+
+.sc {
+	width: 80px;
+	height: 80px;
+	margin-right: 40px;
+	float: left;
+}
+
+.bgsocial1 {
+	background: url('../img/social1.png');
+}
+.bgsocial2 {
+	background: url('../img/social2.png');
+}
+.bgsocial3 {
+	background: url('../img/social3.png');
+	margin-right: 0;
+}
+
+.historia, .galeria, .contato {
+	width: 960px;
+	height: 1220px;
+	background-color: #ffa531;
+	float: left;
+}
+
+.historia > h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	color: #cb2e2e;
+	font-size: 37px;
+	margin: 60px 60px 30px;
+}
+
+.historia > p {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	color: #cb2e2e;
+	font-size: 23px;
+	margin: 0 60px;
+}
+
+.galeria {
+	padding: 50px;
+	width: 860px;
+}
+
+.imagem_unica {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.video {
+	width: 240px;
+	height: 160px;
+}
